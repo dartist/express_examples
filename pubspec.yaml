@@ -1,0 +1,7 @@
+name: express_examples
+description: Example web sites build with dart express and jaded
+dependencies:
+  express: any
+
+#dependencies:
+#  unittest: any
