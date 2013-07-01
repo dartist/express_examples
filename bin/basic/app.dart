@@ -9,11 +9,11 @@ basicApp(){
     ..use(new JadeViewEngine())
     ..use(new StaticFileHandler("basic/public"))
     
-    ..get('/', (HttpContext ctx){
+    ..get('/', (ctx){
       ctx.render('index', {'title': 'Home'});
     })
   
-    ..get('/counter', (HttpContext ctx){
+    ..get('/counter', (ctx){
       ctx.sendJson({'counter': counter++});
     });
 
