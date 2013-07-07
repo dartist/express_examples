@@ -1,7 +1,7 @@
 !!!5
 html
   head
-    title #{title} - My Site
+    title Home Page
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header
@@ -10,11 +10,9 @@ html
       .main-content
         block content
       .sidebar
-        .widget
-          include links.md
-        br
-        block sidebar
-
+        block sidebar 
+        include links.md
+                
     footer
       p Running on dart with 
         a(href='https://github.com/dartist/express') express 

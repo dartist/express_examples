@@ -1,0 +1,1027 @@
+---
+build.dart --machine --changed=bin/basic/views/jade.yaml
+
+build.dart finished [370 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade --changed=bin/basic/public/layout.jade
+
+build.dart finished [348 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [338 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade
+
+build.dart finished [345 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [69 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [353 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [354 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade
+
+build.dart finished [335 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade
+
+build.dart finished [344 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [68 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [351 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [358 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [343 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [343 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [339 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [337 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [360 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.yaml
+
+build.dart finished [408 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/app.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [557 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/app.dart
+
+build.dart finished [80 ms]
+
+---
+build.dart --machine --changed=bin/basic/app.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/app.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade
+
+build.dart finished [422 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [76 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/index.jade
+
+build.dart finished [414 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [67 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [427 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+Uncaught Error: RangeError: 0
+Stack Trace:
+#0      _StringBase.codeUnitAt (dart:core-patch/string_patch.dart:44:3)
+#1      Transformer.fixString (package:jaded/transformers.dart:85:36)
+#2      Transformer.renderSync (package:jaded/transformers.dart:100:53)
+#3      filter (package:jaded/filters.dart:11:33)
+#4      Parser.parseInclude (package:jaded/parser.dart:302:42)
+#5      Parser.parseExpr (package:jaded/parser.dart:116:28)
+#6      Parser.block (package:jaded/parser.dart:395:28)
+#7      Parser.tag (package:jaded/parser.dart:495:27)
+#8      Parser.parseTag (package:jaded/parser.dart:414:15)
+#9      Parser.parseExpr (package:jaded/parser.dart:102:24)
+#10     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#11     Parser.block (package:jaded/parser.dart:395:28)
+#12     Parser.tag (package:jaded/parser.dart:495:27)
+#13     Parser.parseTag (package:jaded/parser.dart:414:15)
+#14     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#15     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#16     Parser.block (package:jaded/parser.dart:395:28)
+#17     Parser.tag (package:jaded/parser.dart:495:27)
+#18     Parser.parseTag (package:jaded/parser.dart:414:15)
+#19     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#20     Parser.block (package:jaded/parser.dart:395:28)
+#21     Parser.tag (package:jaded/parser.dart:495:27)
+#22     Parser.parseTag (package:jaded/parser.dart:414:15)
+#23     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#24     Parser.parse (package:jaded/parser.dart:71:28)
+#25     Parser.parse (package:jaded/parser.dart:77:29)
+#26     parse (package:jaded/jaded.dart:57:43)
+#27     compileBody (package:jaded/jaded.dart:143:21)
+#28     renderFiles.<anonymous closure> (package:jaded/jaded.dart:331:29)
+#29     IterableBase.forEach (dart:collection/iterable.dart:172:30)
+#30     renderFiles (package:jaded/jaded.dart:329:16)
+#31     renderDirectory (package:jaded/jaded.dart:354:21)
+#32     handleYamlMarkers.<anonymous closure> (package:express/express_build.dart:60:45)
+#33     List.forEach (dart:core-patch/growable_array.dart:182:8)
+#34     handleYamlMarkers (package:express/express_build.dart:56:22)
+#35     build.<anonymous closure> (package:express/express_build.dart:48:36)
+#36     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#37     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#38     _ZoneBase.executeCallbackGuarded (dart:async/zone.dart:60:21)
+#39     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:210:33)
+#40     _DelayedDone.perform (dart:async/stream_impl.dart:346:23)
+#41     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:403:18)
+#42     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:374:17)
+#43     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#44     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#45     _ZoneBase.runAsync.<anonymous closure> (dart:async/zone.dart:104:18)
+#46     _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#47     _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+
+
+Unhandled exception:
+RangeError: 0
+#0      _DefaultZone.handleUncaughtError.<anonymous closure> (dart:async/zone.dart:148:7)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:13:7)
+#3      _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+#4      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:91:28)
+#5      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:107:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [144 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [411 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [428 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [417 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [69 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --removed=bin/basic/public/jade.views.dart
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [421 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [68 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [435 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+Uncaught Error: FileException: Cannot open file '../links.md' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (file_impl.dart:464:7)
+#1      _File.openSync (file_impl.dart:330:17)
+#2      _File.readAsBytesSync (file_impl.dart:383:26)
+#3      _File.readAsStringSync (file_impl.dart:401:41)
+#4      Parser.parseInclude (package:jaded/parser.dart:298:46)
+#5      Parser.parseExpr (package:jaded/parser.dart:116:28)
+#6      Parser.block (package:jaded/parser.dart:395:28)
+#7      Parser.tag (package:jaded/parser.dart:495:27)
+#8      Parser.parseTag (package:jaded/parser.dart:414:15)
+#9      Parser.parseExpr (package:jaded/parser.dart:102:24)
+#10     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#11     Parser.block (package:jaded/parser.dart:395:28)
+#12     Parser.tag (package:jaded/parser.dart:495:27)
+#13     Parser.parseTag (package:jaded/parser.dart:414:15)
+#14     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#15     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#16     Parser.block (package:jaded/parser.dart:395:28)
+#17     Parser.tag (package:jaded/parser.dart:495:27)
+#18     Parser.parseTag (package:jaded/parser.dart:414:15)
+#19     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#20     Parser.block (package:jaded/parser.dart:395:28)
+#21     Parser.tag (package:jaded/parser.dart:495:27)
+#22     Parser.parseTag (package:jaded/parser.dart:414:15)
+#23     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#24     Parser.parse (package:jaded/parser.dart:71:28)
+#25     Parser.parse (package:jaded/parser.dart:77:29)
+#26     parse (package:jaded/jaded.dart:57:43)
+#27     compileBody (package:jaded/jaded.dart:143:21)
+#28     renderFiles.<anonymous closure> (package:jaded/jaded.dart:331:29)
+#29     IterableBase.forEach (dart:collection/iterable.dart:172:30)
+#30     renderFiles (package:jaded/jaded.dart:329:16)
+#31     renderDirectory (package:jaded/jaded.dart:354:21)
+#32     handleYamlMarkers.<anonymous closure> (package:express/express_build.dart:60:45)
+#33     List.forEach (dart:core-patch/growable_array.dart:182:8)
+#34     handleYamlMarkers (package:express/express_build.dart:56:22)
+#35     build.<anonymous closure> (package:express/express_build.dart:48:36)
+#36     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#37     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#38     _ZoneBase.executeCallbackGuarded (dart:async/zone.dart:60:21)
+#39     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:210:33)
+#40     _DelayedDone.perform (dart:async/stream_impl.dart:346:23)
+#41     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:403:18)
+#42     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:374:17)
+#43     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#44     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#45     _ZoneBase.runAsync.<anonymous closure> (dart:async/zone.dart:104:18)
+#46     _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#47     _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+
+
+Unhandled exception:
+FileException: Cannot open file '../links.md' (OS Error: No such file or directory, errno = 2)
+#0      _DefaultZone.handleUncaughtError.<anonymous closure> (dart:async/zone.dart:148:7)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:13:7)
+#3      _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+#4      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:91:28)
+#5      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:107:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [405 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+Uncaught Error: FileException: Cannot open file '../links.md' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (file_impl.dart:464:7)
+#1      _File.openSync (file_impl.dart:330:17)
+#2      _File.readAsBytesSync (file_impl.dart:383:26)
+#3      _File.readAsStringSync (file_impl.dart:401:41)
+#4      Parser.parseInclude (package:jaded/parser.dart:298:46)
+#5      Parser.parseExpr (package:jaded/parser.dart:116:28)
+#6      Parser.block (package:jaded/parser.dart:395:28)
+#7      Parser.tag (package:jaded/parser.dart:495:27)
+#8      Parser.parseTag (package:jaded/parser.dart:414:15)
+#9      Parser.parseExpr (package:jaded/parser.dart:102:24)
+#10     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#11     Parser.block (package:jaded/parser.dart:395:28)
+#12     Parser.tag (package:jaded/parser.dart:495:27)
+#13     Parser.parseTag (package:jaded/parser.dart:414:15)
+#14     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#15     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#16     Parser.block (package:jaded/parser.dart:395:28)
+#17     Parser.tag (package:jaded/parser.dart:495:27)
+#18     Parser.parseTag (package:jaded/parser.dart:414:15)
+#19     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#20     Parser.block (package:jaded/parser.dart:395:28)
+#21     Parser.tag (package:jaded/parser.dart:495:27)
+#22     Parser.parseTag (package:jaded/parser.dart:414:15)
+#23     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#24     Parser.parse (package:jaded/parser.dart:71:28)
+#25     Parser.parse (package:jaded/parser.dart:77:29)
+#26     parse (package:jaded/jaded.dart:57:43)
+#27     compileBody (package:jaded/jaded.dart:143:21)
+#28     renderFiles.<anonymous closure> (package:jaded/jaded.dart:331:29)
+#29     IterableBase.forEach (dart:collection/iterable.dart:172:30)
+#30     renderFiles (package:jaded/jaded.dart:329:16)
+#31     renderDirectory (package:jaded/jaded.dart:354:21)
+#32     handleYamlMarkers.<anonymous closure> (package:express/express_build.dart:60:45)
+#33     List.forEach (dart:core-patch/growable_array.dart:182:8)
+#34     handleYamlMarkers (package:express/express_build.dart:56:22)
+#35     build.<anonymous closure> (package:express/express_build.dart:48:36)
+#36     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#37     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#38     _ZoneBase.executeCallbackGuarded (dart:async/zone.dart:60:21)
+#39     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:210:33)
+#40     _DelayedDone.perform (dart:async/stream_impl.dart:346:23)
+#41     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:403:18)
+#42     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:374:17)
+#43     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#44     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#45     _ZoneBase.runAsync.<anonymous closure> (dart:async/zone.dart:104:18)
+#46     _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#47     _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+
+
+Unhandled exception:
+FileException: Cannot open file '../links.md' (OS Error: No such file or directory, errno = 2)
+#0      _DefaultZone.handleUncaughtError.<anonymous closure> (dart:async/zone.dart:148:7)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:13:7)
+#3      _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+#4      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:91:28)
+#5      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:107:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [412 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart
+
+build.dart finished [80 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+Uncaught Error: FileException: Cannot open file 'links.md' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (file_impl.dart:464:7)
+#1      _File.openSync (file_impl.dart:330:17)
+#2      _File.readAsBytesSync (file_impl.dart:383:26)
+#3      _File.readAsStringSync (file_impl.dart:401:41)
+#4      Parser.parseInclude (package:jaded/parser.dart:298:46)
+#5      Parser.parseExpr (package:jaded/parser.dart:116:28)
+#6      Parser.block (package:jaded/parser.dart:395:28)
+#7      Parser.tag (package:jaded/parser.dart:495:27)
+#8      Parser.parseTag (package:jaded/parser.dart:414:15)
+#9      Parser.parseExpr (package:jaded/parser.dart:102:24)
+#10     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#11     Parser.block (package:jaded/parser.dart:395:28)
+#12     Parser.tag (package:jaded/parser.dart:495:27)
+#13     Parser.parseTag (package:jaded/parser.dart:414:15)
+#14     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#15     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#16     Parser.block (package:jaded/parser.dart:395:28)
+#17     Parser.tag (package:jaded/parser.dart:495:27)
+#18     Parser.parseTag (package:jaded/parser.dart:414:15)
+#19     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#20     Parser.block (package:jaded/parser.dart:395:28)
+#21     Parser.tag (package:jaded/parser.dart:495:27)
+#22     Parser.parseTag (package:jaded/parser.dart:414:15)
+#23     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#24     Parser.parse (package:jaded/parser.dart:71:28)
+#25     Parser.parse (package:jaded/parser.dart:77:29)
+#26     parse (package:jaded/jaded.dart:57:43)
+#27     compileBody (package:jaded/jaded.dart:143:21)
+#28     renderFiles.<anonymous closure> (package:jaded/jaded.dart:331:29)
+#29     IterableBase.forEach (dart:collection/iterable.dart:172:30)
+#30     renderFiles (package:jaded/jaded.dart:329:16)
+#31     renderDirectory (package:jaded/jaded.dart:354:21)
+#32     handleYamlMarkers.<anonymous closure> (package:express/express_build.dart:60:45)
+#33     List.forEach (dart:core-patch/growable_array.dart:182:8)
+#34     handleYamlMarkers (package:express/express_build.dart:56:22)
+#35     build.<anonymous closure> (package:express/express_build.dart:48:36)
+#36     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#37     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#38     _ZoneBase.executeCallbackGuarded (dart:async/zone.dart:60:21)
+#39     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:210:33)
+#40     _DelayedDone.perform (dart:async/stream_impl.dart:346:23)
+#41     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:403:18)
+#42     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:374:17)
+#43     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#44     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#45     _ZoneBase.runAsync.<anonymous closure> (dart:async/zone.dart:104:18)
+#46     _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#47     _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+
+
+Unhandled exception:
+FileException: Cannot open file 'links.md' (OS Error: No such file or directory, errno = 2)
+#0      _DefaultZone.handleUncaughtError.<anonymous closure> (dart:async/zone.dart:148:7)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:13:7)
+#3      _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+#4      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:91:28)
+#5      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:107:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [407 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart
+
+build.dart finished [84 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/links.md
+
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [418 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [78 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [435 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [429 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [69 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [424 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [424 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [79 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [422 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [72 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [429 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [74 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [433 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [425 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [418 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [423 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+Uncaught Error: Invalid indentation, you can use tabs or spaces but not both
+Stack Trace:
+#0      Lexer.indent (package:jaded/lexer.dart:519:7)
+#1      Lexer.next (package:jaded/lexer.dart:590:22)
+#2      Lexer.lookahead (package:jaded/lexer.dart:75:39)
+#3      Parser.lookahead (package:jaded/parser.dart:60:40)
+#4      Parser.peek (package:jaded/parser.dart:56:28)
+#5      Parser.tag (package:jaded/parser.dart:472:29)
+#6      Parser.parseTag (package:jaded/parser.dart:414:15)
+#7      Parser.parseExpr (package:jaded/parser.dart:102:24)
+#8      Parser.block (package:jaded/parser.dart:395:28)
+#9      Parser.tag (package:jaded/parser.dart:495:27)
+#10     Parser.parseTag (package:jaded/parser.dart:414:15)
+#11     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#12     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#13     Parser.block (package:jaded/parser.dart:395:28)
+#14     Parser.tag (package:jaded/parser.dart:495:27)
+#15     Parser.parseTag (package:jaded/parser.dart:414:15)
+#16     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#17     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#18     Parser.block (package:jaded/parser.dart:395:28)
+#19     Parser.tag (package:jaded/parser.dart:495:27)
+#20     Parser.parseTag (package:jaded/parser.dart:414:15)
+#21     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#22     Parser.parseExpr (package:jaded/parser.dart:143:25)
+#23     Parser.block (package:jaded/parser.dart:395:28)
+#24     Parser.tag (package:jaded/parser.dart:495:27)
+#25     Parser.parseTag (package:jaded/parser.dart:414:15)
+#26     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#27     Parser.block (package:jaded/parser.dart:395:28)
+#28     Parser.tag (package:jaded/parser.dart:495:27)
+#29     Parser.parseTag (package:jaded/parser.dart:414:15)
+#30     Parser.parseExpr (package:jaded/parser.dart:102:24)
+#31     Parser.parse (package:jaded/parser.dart:71:28)
+#32     Parser.parse (package:jaded/parser.dart:77:29)
+#33     parse (package:jaded/jaded.dart:57:43)
+#34     compileBody (package:jaded/jaded.dart:143:21)
+#35     renderFiles.<anonymous closure> (package:jaded/jaded.dart:331:29)
+#36     IterableBase.forEach (dart:collection/iterable.dart:172:30)
+#37     renderFiles (package:jaded/jaded.dart:329:16)
+#38     renderDirectory (package:jaded/jaded.dart:354:21)
+#39     handleYamlMarkers.<anonymous closure> (package:express/express_build.dart:60:45)
+#40     List.forEach (dart:core-patch/growable_array.dart:182:8)
+#41     handleYamlMarkers (package:express/express_build.dart:56:22)
+#42     build.<anonymous closure> (package:express/express_build.dart:48:36)
+#43     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#44     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#45     _ZoneBase.executeCallbackGuarded (dart:async/zone.dart:60:21)
+#46     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:210:33)
+#47     _DelayedDone.perform (dart:async/stream_impl.dart:346:23)
+#48     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:403:18)
+#49     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:374:17)
+#50     _ZoneBase._runInZone (dart:async/zone.dart:78:19)
+#51     _ZoneBase._runGuarded (dart:async/zone.dart:95:22)
+#52     _ZoneBase.runAsync.<anonymous closure> (dart:async/zone.dart:104:18)
+#53     _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#54     _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+
+
+Unhandled exception:
+Invalid indentation, you can use tabs or spaces but not both
+#0      _DefaultZone.handleUncaughtError.<anonymous closure> (dart:async/zone.dart:148:7)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:9:15)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:13:7)
+#3      _createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:8:13)
+#4      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:91:28)
+#5      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:107:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [434 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [424 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [431 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [83 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [74 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [424 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [438 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [422 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [67 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [427 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [68 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [72 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [436 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [427 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [68 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [63 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [68 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [414 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [65 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [417 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [420 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [414 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/page.jade
+
+build.dart finished [420 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [69 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [413 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+

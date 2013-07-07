@@ -166,6 +166,11 @@ header {
   padding: 0px 10px;
   margin-bottom: 10px;
 }
+.sidebar .widget ul {
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
 p {
   line-height: 1.8;
 }

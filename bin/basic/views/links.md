@@ -1,0 +1,4 @@
+- [home](/)
+- [/pages](/pages)
+- [/counter](/counter)
+- [/error](/error)
