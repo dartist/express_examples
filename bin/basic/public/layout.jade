@@ -1,17 +1,19 @@
 !!!5
 html
   head
-    title Home Page
+    title /public static .jade pages
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header
-      h1 My Site
+      h1 /public static .jade pages
     .container
       .main-content
         block content
       .sidebar
+        .widget
+          include links.md
+        br
         block sidebar 
-        include links.md
                 
     footer
       p Running on dart with 

@@ -1,4 +1,7 @@
+# Links
+
 - [home](/)
-- [/pages](/pages)
+- [/static](/static)
+- [/page](/page)
 - [/counter](/counter)
 - [/error](/error)

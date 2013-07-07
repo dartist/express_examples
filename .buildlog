@@ -1025,3 +1025,208 @@ build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/ba
 
 build.dart finished [71 ms]
 
+---
+build.dart --machine --changed=bin/basic/views/links.md
+
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [70 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/home.jade --removed=bin/basic/public/index.jade
+
+build.dart finished [437 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [421 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/static.jade --removed=bin/basic/public/home.jade
+
+build.dart finished [436 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [76 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/static.jade
+
+build.dart finished [448 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/links.md
+
+build.dart finished [444 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [71 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/links.md
+
+build.dart finished [473 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [84 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [467 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [81 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [457 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [76 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [446 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [450 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [72 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/layout.jade
+
+build.dart finished [442 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [80 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [431 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [83 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [531 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout-plain.jade
+
+build.dart finished [444 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/layout.jade
+
+build.dart finished [444 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [77 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/index.jade
+
+build.dart finished [453 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [75 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/index.jade
+
+build.dart finished [457 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [73 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/index.jade
+
+build.dart finished [435 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [76 ms]
+
+---
+build.dart --machine --changed=bin/basic/views/index.jade
+
+build.dart finished [429 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/jade.views.dart --changed=bin/basic/views/jade.views.dart
+
+build.dart finished [74 ms]
+
+---
+build.dart --machine --changed=bin/basic/public/stylesheets/style.css
+
+build.dart finished [72 ms]
+
